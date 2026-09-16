@@ -7,6 +7,7 @@
         background-color: #1F2937;
 
 }
+/* heading part*/
 .header {
     display: flex;
     justify-content:space-around;
@@ -27,7 +28,7 @@
 
 }
 
-/*main text*/
+/*section main textdo*/
 .hero {
     display: flex;
     justify-content: space-around;
@@ -37,7 +38,6 @@
 .left-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 350px;
     gap: 20px;
 }
@@ -58,4 +58,97 @@
     padding: 5px;
     border: none;
     margin-bottom: 20px;
+}
+
+/* main-section*/
+/* .hero-2 {
+    display: flex;
+} */
+/* .heading-text h2 {
+    display:flex;
+
+}
+.main-section  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ */
+ .hero-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 20px;
+ }
+ .heading-text h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1f2937;
+
+ }
+ .main-section  {
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px;
+ }
+ .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+ }
+ .round {
+    width: 150px;
+    height: 150px;
+    border:solid 4px #3882F6;
+    border-radius: 15px;
+}
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* .main-section p {
+    width: 150px;
+    margin-top: 20px;
+} */
+
+/*section three */
+.section-three {
+    background-color: #e5e7eb;
+    padding: 100px, 20px;
+    display: flex;
+    justify-content: center;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 15px;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300; */
+}
+.quote-text {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 1.3;
+}
+.quote-author {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  align-self: flex-end; /* pushes only the author text to the far right */
 }
