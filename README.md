@@ -5,11 +5,13 @@ A responsive landing page built with HTML and CSS, focusing on Flexbox, layout s
 
 ## Live Demo
 
-[View the live website](YOUR-GITHUB-PAGES-LINK)
+[View the live website](https://bela-mina.github.io/Landing_Page/)
 
 ## Screenshot
 
 *Add a screenshot of the finished project here.*
+<img width="910" height="375" alt="image" src="https://github.com/user-attachments/assets/488e6b7d-a17e-43d3-b352-4f1214bb3fa3" />
+
 
 ## Built With
 
