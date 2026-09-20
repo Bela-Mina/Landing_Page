@@ -13,9 +13,12 @@
     justify-content:space-around;
     align-items: center;
 }
-.logo-one h2 {
-    font-size: 24px;
-    color: #F9FAF8;
+.logo-one img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+
 }
 .links ul {
     display: flex;
@@ -24,8 +27,12 @@
 }
 .links a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #29c0c0;
+    cursor: pointer;
 
+}
+a:hover {
+    color: #d3c349;
 }
 
 /*section main textdo*/
@@ -38,32 +45,39 @@
 .left-text {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    gap: 10px;
+    max-width: 500px;
+    margin-top: 20px;
+    
 }
 
 
 .davinc {
-    font-size: 70px;
+    font-size: 40px;
     color: #9fcf6f;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 .about-davinc {
-    font-size: 50px;
+    font-size: 30px;
     color: #E5E7EB;
     margin-top: 20px;
 }
 
 .buttons {
     background-color: #3882F6;
-    width: 200px;
-    padding: 20px;
+    width: 150px;
+    padding: 10px;
     margin-top: 30px;    
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: #9fcf6f;
+    color: #000;
 }
 .right-text img {
+    height: 400px;
 }
 
 /* main-section*/
@@ -94,27 +108,30 @@
  }
  .main-section  {
     display: flex;
-    
-    justify-content: center;
     gap: 40px;
  }
  .card {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
     align-items: center;
     text-align: center;
  }
  .round {
-    width: 150px;
-    height: 150px;
-    border:solid 4px #3882F6;
-    border-radius: 15px;
+     /* width: 300px; */
+    /* height: 200px;  */
+    /* border:solid 4px #3882F6; */
+    /* border-radius: 15px; */
+    margin-top: 20px;
+}
+.round img {
+    width: 250px;
+    height: 200px;
 }
 .card p {
     margin-top: 10px;
-    font-size: 14px;
-    color: #6b7280;
+    font-size: 18px;
+    /* color: #6b7280; */
+    color: #000;
 }
 
 /* .main-section p {
@@ -205,4 +222,5 @@ footer {
 }
 .footer p {
     font-size: 28px;
+    color: #e5e7eb;
 }
